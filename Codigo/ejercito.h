@@ -1,7 +1,7 @@
 #ifndef EJERCITO_H
 #define EJERCITO_H
 
-class ejercito {
+class Ejercito {
   public:
     // Getter for 'tipo'
     char getTipo();
