@@ -1,5 +1,7 @@
 #include <iostream>
-#include 
+#include "ejercito.h"
+#include "jugador.h"
+
 
     // Getter for 'nombre'
     const std::string& getNombre() const {
