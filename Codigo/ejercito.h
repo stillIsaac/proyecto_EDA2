@@ -4,27 +4,19 @@
 class ejercito {
   public:
     // Getter for 'tipo'
-    char getTipo() const {
-        return tipo[0];
-    }
+    char getTipo();
 
     // Setter for 'tipo'
-    void setTipo(char nuevoTipo) {
-        tipo[0] = nuevoTipo;
-    }
+    void setTipo(char nuevoTipo);
 
-    // Getter for 'cant'
-    int getCant() const {
-        return cant;
-    }
+    int getCant();
 
     // Setter for 'cant'
-    void setCant(int nuevaCant) {
-        cant = nuevaCant;
-    }
+    void setCant(int nuevaCant);
+
 
   private:
-    char tipo[1];
+    char tipo;
     int cant;
 };
 
